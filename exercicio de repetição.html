@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer. Repetição</title>
+
+
+<script>
+
+/*
+exercicio1
+   
+        var valor1 =  parseInt(prompt("insira o primeiro valor"));
+        var valor2 =  parseInt(prompt("insira o segundo valor"));
+
+    while(valor2 <= 0){
+
+        alert("Por favor, informe um valor maior positivo");
+        var valor2 = parseInt(prompt("Insira o segundo valor novamente"));
+
+       
+    }
+ 
+        var soma = valor1 / valor2;
+        alert("O seu resultado é: " + soma);
+        
+
+*/
+
+
+/*
+exercicio 2
+var contagem = 30
+
+
+while(contagem > 0){
+    document.write (contagem + "<br>");
+    contagem = contagem-1;
+
+}
+
+document.write ("Explosão!")
+
+*/
+
+
+
+/*
+exercicio 3
+
+var contagem = 10
+
+while(contagem > 0){
+    document.write(contagem + "<br>");
+    contagem = contagem -1;
+}
+
+*/
+
+
+/*
+
+exercicio 4 
+
+var numero = 15
+var acumuladora = 0
+
+while(numero <= 100 ){
+    acumuladora += numero 
+    numero ++
+}
+
+var media =  acumuladora / 85
+document.write(media);
+ 
+
+*/
+
+
+/*
+
+exercicio 5
+
+var valor1 =  parseInt(prompt("Digite o primeiro valor"));
+var valor2 = parseInt (prompt ("Digite o segundo valor"));
+var acumuladora = 0;
+var subtracao = valor2 - valor1;
+var media = 0;
+
+while(valor1 < valor2){
+    acumuladora += valor1
+    console.log (acumuladora)
+    valor1 ++;
+}
+
+media = acumuladora / subtracao 
+document.write("A sua média é: " + media);
+
+
+*/
+
+
+/*
+exercicio 6
+
+var nota1 = parseInt(prompt("Digite o primeira nota"));
+var nota2 = parseInt(prompt("Digite o segunda nota"));
+var acumuladora = 0;
+var conta = (nota1 + nota2)/2;
+
+if (conta > 9.5){
+    alert("Parabéns, você foi aprovado!");
+    acumuladora ++;
+}else{
+    alert("Você reprovou.");
+}
+
+var s = prompt ("Deseja calcular a média de outro aluno? Sim ou Não?");
+
+while( s == "sim"){
+    var nota1 = parseInt(prompt("Digite o primeira nota"));
+    var nota2 = parseInt(prompt("Digite o segunda nota"));
+    var conta = (nota1 + nota2) / 2;
+
+    if (conta > 9.5){
+    alert("Parabéns, você foi aprovado!");
+    acumuladora++;
+
+    }else{
+        alert("Você reprovou.");
+    }
+
+
+    var s = prompt ("Deseja calcular a media de outro aluno? Sim ou Não?");
+
+    if(s == "não")
+        alert(acumuladora + " alunos aprovados");
+}
+
+*/
+
+/*
+
+exercicio 7
+
+    var nota1= parseInt(prompt("Digite a primeira nota"))
+    while(nota1 < 0 || nota1 > 10){
+    alert("Valor incorreto!")
+    var nota1= parseInt(prompt("Digite a primeira nota novamente: "))
+    
+}
+    var nota2= parseInt(prompt("Digite a segunda nota"))
+    while(nota2 < 0 || nota2 > 10){
+    alert("Valor incorreto!")
+    var nota2= parseInt(prompt("Digite a segunda nota novamente: "))
+}
+
+    var nota3= parseInt(prompt("Digite a terceira nota"))
+    while(nota3 < 0 || nota3 > 10){
+    alert("Valor incorreto!")
+    var nota3= parseInt(prompt("Digite a terceira nota novamente: "))
+}
+
+    var nota4= parseInt(prompt("Digite a quarta nota"))
+    while(nota4 < 0 || nota4 > 10){
+    alert("Valor incorreto!")
+    var nota4= parseInt(prompt("Digite a quarta nota novamente: "))}
+
+    var nota5= parseInt(prompt("Digite a quita nota"))
+    while(nota5 < 0 || nota5 > 10){
+    alert("Valor incorreto!")
+    var nota5= parseInt(prompt("Digite a quinta nota novamente: "))
+}
+    var nota6= parseInt(prompt("Digite a sexta nota"))
+    while(nota6 < 0 || nota6 > 10){
+    alert("Valor incorreto!")
+    var nota6= parseInt(prompt("Digite a sexta nota novamente: "))
+}
+
+var media = (nota1 + nota2 + nota3 + nota4 +nota5 + nota6) /6;
+alert("A média do aluno é: " + media)
+
+*/
+
+
+/*
+exercicio 8
+
+var n = parseFloat(prompt("Digite o valor limite: "))
+var n2 = 1
+var fator = n - n2 
+
+while(n2 <= n){
+    document.write ( n2 + "<br>")
+    n2++
+}
+
+*/
+
+
+/*
+exercicio 9
+
+var minimo = 101
+var maximo = 111
+
+while(minimo <= maximo){
+    document.write(minimo + "<br>")
+    minimo++
+}
+
+*/
+
+
+/*
+
+exercicio 9
+
+var num1 = parseInt(prompt("Digite o valor valor limite"))
+var inicio = 0 
+
+while(inicio < num1){
+    inicio++
+    var final = 0
+    while(final < 10){
+        final++
+
+     var soma = inicio*final
+     document.write(inicio + "x" + final + "=" + soma + "<br>")
+    }
+
+}
+
+*/
+
+
+/*
+
+exercicio 11
+
+var valor1 = 0
+var valor2 = 0
+var inicio = 0
+
+while (inicio < 10){
+var valor = parseInt(prompt("digite os números: "))
+
+if (valor > 24 && valor < 42) {
+    valor1++
+}
+
+else {
+    valor2++
+}
+
+inicio++
+
+}
+alert ("existem " + valor1 + " dentro " + valor2 + " fora")
+
+*/
+
+
+
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
